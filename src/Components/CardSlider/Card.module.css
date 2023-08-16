@@ -1,0 +1,85 @@
+.card {
+  min-width: 1200px;
+  min-height: 425px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  background: linear-gradient(223deg, #67c3f3 0%, #5a98f2 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.card h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+  gap: 25px;
+}
+
+.card h2::after {
+  content: "";
+  display: block;
+  background-color: white;
+  width: 56px;
+  height: 2px;
+}
+
+.username {
+  display: flex;
+  flex-direction: column; 
+  color: white;
+}
+.user_details_wrapper {
+  display: flex;
+  align-items: center; 
+  gap: 29px;
+}
+
+.username h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 48px; 
+}
+
+.username span {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+
+.user_details {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 35px;
+}
+
+.user_details img {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+  object-fit: contain; 
+  border: 5px solid white;
+}
+.user_details p {
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 420px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+

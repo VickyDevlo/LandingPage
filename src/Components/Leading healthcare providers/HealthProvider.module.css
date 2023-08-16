@@ -1,0 +1,123 @@
+.healthprovider_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.healthprovider_text_sec {
+    max-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.img_wrapper {
+    max-height: 477px;
+    max-width: 650px;
+}
+
+.img_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.healthprovider_text_sec h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+}
+
+.healthprovider_text_sec h1::after {
+    content: "";
+    display: flex;
+    background-color: black;
+    width: 56px;
+    height: 2px;
+}
+
+
+.healthprovider_text_sec p {
+    max-width: 450px;
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.download_btn {
+    width: fit-content;
+    height: fit-content;
+}
+
+.download_btn button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.second_sec {
+    max-width: 1200px;
+    padding-top: 180px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 91px;
+}
+
+.second_sec_text_sec {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    max-width: 420px;
+}
+
+.second_sec_text_sec h1 {
+    max-width: 254px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.second_sec_text_sec h1::after {
+    content: "";
+    display: flex;
+    background-color: black;
+    width: 56px;
+    height: 2px;
+}
+
+.second_sec_text_sec p {
+    width: 420px;
+    font-size: 18px;
+    color: #7D7987;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.Sec_img_wrapper {
+    max-height: 477px;
+    max-width: 650px;
+}
+
+.Sec_img_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}

@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 109px;
+    flex-wrap: wrap; 
+}
+
+.text_sec {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.text_sec h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.text_sec p {
+    color: #7d7987;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.consult_btn {
+    width: fit-content;
+    height: fit-content; 
+}
+
+.img_wrapper {
+    max-width: 593px;
+    max-height: 598px;
+    padding-top:50px;
+}
+
+.img_wrapper img {
+    width: 100%;
+    height: 100%;
+}
