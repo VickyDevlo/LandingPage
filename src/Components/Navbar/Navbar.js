@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 import Logo from "../../Assets/Images/logo.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,19 +10,19 @@ const Navbar = () => {
       <div className={styles.nav}>
         <ul>
           <li>
-            <a href="">Home</a>
+            <NavLink to={"/"}>Home</NavLink>
           </li>
           <li>
-            <a href="">Find a doctor</a>
+            <NavLink to={"/finddoctor"}>Find a doctor</NavLink>
           </li>
           <li>
-            <a href="">Apps</a>
+            <NavLink to={"/apps"}>Apps</NavLink>
           </li>
           <li>
-            <a href="">Testimonials</a>
+            <NavLink to={"/testimonials"}>Testimonials</NavLink>
           </li>
           <li>
-            <a href="">About us</a>
+            <NavLink to={"/about"}>About us</NavLink>
           </li>
         </ul>
       </div>
